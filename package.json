@@ -1,0 +1,23 @@
+{
+  "name": "student-manager-ci-demo",
+  "version": "1.0.0",
+  "description": "Simple Student Manager app - CI/CD demo (no database needed)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "build": "echo 'Build successful'"
+  },
+  "keywords": ["ci", "cd", "github-actions", "demo"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
+

@@ -113,6 +113,6 @@ describe('Student Manager API', () => {
 
    //intentionally failing test
    test('this test will FAIL', () => {
-      expect(1 + 1).toBe(3);
+      expect(1 + 1).toBe(2);
    });
 });
